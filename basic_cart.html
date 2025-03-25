@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cart viewer</title>
+</head>
+<body>
+ 
+   <p> Cart Quantity </p>
+   <button id="show-quantity" onclick="
+     console.log('Cart quantity:',show_cart);
+     "
+     >Show Quantity</button>
+   <button onclick="
+  //  show_cart = show_cart +1 ;
+  shpw_cart++;
+   console.log('Cart quantity:',show_cart);
+   ">Add to Cart</button>
+   <button onclick="
+  //  show_cart= show_cart+2;
+   show_cart+=2;
+   console.log('Cart quantity:',show_cart);
+   ">+2</button>
+   <button 
+   onclick="
+  //  show_cart = show_cart +3
+  shpw_cart+=3;
+     console.log('Cart quantity:',show_cart);
+     ">+3</button>
+   <button
+   onclick="
+   show_cart = 0 ;
+   console.log('cart was reset');
+     console.log('Cart quantity:',show_cart);
+     ">Reset</button>
+    <script>
+      // let i = 0;
+      let show_cart = 0;
+      // let add_cart = show_cart+1;
+      // let plus2 = show_c+2;
+      // let plus3 = plus2+3;
+      // let reset = 0;
+      name= 'madani';   
+      // camelCase->cartQuantity
+      // PascalCase->CartQuantity
+      // kebab-case->cart-quanty(not used in js)
+      // snake_case->cart_quantity(used in other prog languages)
+    </script>
+  
+</body>
+</html>
